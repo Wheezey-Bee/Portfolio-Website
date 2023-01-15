@@ -82,3 +82,11 @@ nav{
     position: absolute;
     bottom: 0px;
   }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+  }
+  
+  tr:hover {background-color: #76009a;}
