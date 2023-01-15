@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/dbcd8df2d6.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="script.js"></script>
     </head>
 
     <!-- Navigation Bar -->
@@ -21,8 +22,17 @@
     </nav>
 
 <body>
+    <h1>Contact Me</h1><br><br>
     <p>If you would like to get in contact, please use the form below to send me an email. I check this account at least once a week, so please bare with me if I don't respond on the same day!</p><br>
-    <p>placeholder for form</p>
+    <form onsubmit="return false">
+        <span>Please input your name</span> <br>
+        <input type="text" placeholder="Your name" id="lastName" /><br><br>
+        <span>Where should I reply to?</span><br>
+        <input type="text" placeholder="Your email" id="lastName" /><br><br>
+        <span>What is your question or query?</span><br>
+        <textarea id="question" rows="6" placeholder="Let me know your thoughts!"></textarea>
+        <br><br>
+    </form>
 </body>
 
 <footer>
