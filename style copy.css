@@ -87,5 +87,13 @@ nav{
     text-align: left;
     border-bottom: 1px solid #DDD;
   }
+
+  td a{
+    color: whitesmoke;
+  }
   
-  tr:hover {background-color: #76009a;}
+  td a:hover {
+    color:rgb(5, 0, 139)
+  }
+  
+  tr:hover {background-color: teal;}
